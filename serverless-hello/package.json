@@ -1,0 +1,13 @@
+{
+  "name": "hello-serverless",
+  "version": "1.0.0",
+  "description": "GET /hello como función Serverless (AWS Lambda + API Gateway, ejecutable en local con Serverless Framework)",
+  "scripts": {
+    "start": "serverless offline",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "serverless": "^3.39.0",
+    "serverless-offline": "^13.6.0"
+  }
+}

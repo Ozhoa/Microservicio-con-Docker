@@ -1,0 +1,16 @@
+{
+  "name": "hello-docker-microservicio",
+  "version": "1.0.0",
+  "description": "Microservicio REST sencillo - GET /hello?name=Ana",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
